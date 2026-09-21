@@ -36,7 +36,10 @@ function App() {
 
         {/* CATEGORÍAS NEÓN */}
         <div className="flex gap-4 w-full justify-center">
-          <a href="#" className="relative group flex justify-center mt-2">
+          <a
+            href={`https://wa.me/${WHATSAPP_NUMBER_ONE}`}
+            className="relative group flex justify-center mt-2"
+          >
             <div className="absolute inset-0 bg-green-500 rounded-2xl blur-xl opacity-60 group-hover:opacity-100 animate-pulse transition duration-500"></div>
 
             <div className="relative w-full py-5 px-6 bg-gradient-to-b from-[#25D366] to-[#128C7E] rounded-2xl border border-green-400/50 flex flex-col items-center justify-center gap-4 shadow-[0_0_40px_rgba(37,211,102,0.5)] transform transition-transform duration-200 group-hover:scale-105">
@@ -55,7 +58,10 @@ function App() {
               </div>
             </div>
           </a>
-          <a href="#" className="relative group flex justify-center mt-2">
+          <a
+            href={`https://wa.me/${WHATSAPP_NUMBER_TWO}`}
+            className="relative group flex justify-center mt-2"
+          >
             <div className="absolute inset-0 bg-green-500 rounded-2xl blur-xl opacity-60 group-hover:opacity-100 animate-pulse transition duration-500"></div>
 
             <div className="relative w-full py-5 px-6 bg-gradient-to-b from-[#25D366] to-[#128C7E] rounded-2xl border border-green-400/50 flex flex-col items-center justify-center gap-4 shadow-[0_0_40px_rgba(37,211,102,0.5)] transform transition-transform duration-200 group-hover:scale-105">
@@ -157,7 +163,7 @@ function App() {
 
         <div className="flex gap-4 w-full justify-center">
           <a
-            href="#"
+            href={`https://wa.me/${WHATSAPP_NUMBER_SUPPORT}`}
             className="relative group flex justify-center mt-2 w-full"
           >
             {/* Aura parpadeante (ahora roja) */}
