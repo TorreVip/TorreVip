@@ -1,5 +1,6 @@
 import React from "react";
-import { GAMES } from "./constants";
+import { GAMES, WHATSAPP_NUMBER_ONE, WHATSAPP_NUMBER_TWO } from "./constants";
+import { WHATSAPP_NUMBER_SUPPORT } from "./constants";
 
 function App() {
   return (
