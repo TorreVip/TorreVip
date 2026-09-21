@@ -38,7 +38,7 @@ function App() {
         {/* CATEGORÍAS NEÓN */}
         <div className="flex gap-4 w-full justify-center">
           <a
-            href={`https://wa.me/${WHATSAPP_NUMBER_ONE}`}
+            href={`https://wa.me/${WHATSAPP_NUMBER_ONE}?text=${encodeURIComponent("Hola, quiero reclamar mi bonificacion.")}`}
             className="relative group flex justify-center mt-2"
           >
             <div className="absolute inset-0 bg-green-500 rounded-2xl blur-xl opacity-60 group-hover:opacity-100 animate-pulse transition duration-500"></div>
@@ -60,7 +60,7 @@ function App() {
             </div>
           </a>
           <a
-            href={`https://wa.me/${WHATSAPP_NUMBER_TWO}`}
+            href={`https://wa.me/${WHATSAPP_NUMBER_TWO}?text=${encodeURIComponent("Hola, quiero reclamar mi bonificacion.")}`}
             className="relative group flex justify-center mt-2"
           >
             <div className="absolute inset-0 bg-green-500 rounded-2xl blur-xl opacity-60 group-hover:opacity-100 animate-pulse transition duration-500"></div>
