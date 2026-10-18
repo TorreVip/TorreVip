@@ -44,5 +44,5 @@ export const GAMES = [
 ];
 
 export const WHATSAPP_NUMBER_ONE = "+543512473426";
-export const WHATSAPP_NUMBER_TWO = "+543518684094";
+export const WHATSAPP_NUMBER_TWO = "+543512473426";
 export const WHATSAPP_NUMBER_SUPPORT = "+543518684182";
